@@ -1,6 +1,6 @@
 #-*- coding:utf-8 -*-
 u'''
-scala collection like interface for python iterato.r
+scala collection like interface for python iterator.
 
 Iterable object:
 
@@ -37,7 +37,7 @@ Map object:
     
 '''
 
-from collection import Iterable, Map
+from .collection import Iterable, Map
 
 
 __version__ = '0.1.0'
